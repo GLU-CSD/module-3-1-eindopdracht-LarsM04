@@ -1,32 +1,74 @@
-<!doctype html>
+<!DOCTYPE html> 
 <html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>F1 Shop</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <meta name="description" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <meta name="description" content="">
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:alt" content="" />
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
+    <link rel="icon" href="assets/img/ferrari-f1-75.jpg" sizes="any" />
+    <link rel="icon" href="assets/img/ferrari-f1-75.jpg" type="jpg" />
+    <link rel="apple-touch-icon" href="icon.png" />
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+    <meta name="theme-color" content="#fafafa" />
+  </head>
 
-  <meta name="theme-color" content="#fafafa">
-</head>
+  <body>
+    <div id="content">
+      <header>
+        <div class="bovenbalk">
+            <div class="menuLeft">
+                <label for="Taal">Taal:</label>
+                <select name="Taal" id="Taal">
+                    <option value="Nederlands">Nederlands</option>
+                    <option value="Engels">Engels</option>
+                </select>
+            </div>
+            <div class="menuRight">
+                <a href="">mijn account</a> | 
+                <a href="">afrekenen</a> | 
+                <a href="">uitloggen</a>
+            </div>
+        </div>
+        <div class="topnav">
+          <a class="active" href="#home">Home</a>
+          <a href="#news">Coureurs</a>
+          <a href="#contact">Teams</a>
+          <a href="#about">Accessoires</a>
+        </div>
+    </header>
 
-<body>
-
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="assets/js/app.js"></script>
-
-</body>
-
+      <main>
+        <div id="sidebar">sidebar</div>
+        <div id="products">
+          <div class="product">
+            <img src="assets/img/m4x shirt.webp" alt="product" />
+            <div class="bottom">
+              <div class="bottomleft">
+                <div>
+                  <h3 style="margin-top:10px;">M4X T-shirt</h3>
+                </div>
+                <div>
+                  <p>Price: €37,95</p>
+                </div>
+              </div>
+              <div class="bottomright">
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>footer</footer>
+      
+      <script src="assets/js/app.js"></script>
+    </div>
+  </body>
 </html>
