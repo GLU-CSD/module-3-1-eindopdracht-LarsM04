@@ -38,13 +38,15 @@
         </div>
 
         <div id="zoekbar">
+          <img src="assets/img/formula-racing-car-illustration-in-black-and-white-free-vector.jpg" alt="Logo" id="search-logo" />
           <input type="text" placeholder="Search.." />
-
+          
           <div id="cart-icon" class="cart-icon">
             <img src="assets/img/shopping cart red.png" alt="Winkelwagentje" />
             <span id="cart-count" class="cart-count">0</span>
           </div>
         </div>
+        
         <div id="selectbar">
           <div class="dropdown">
             <button class="dropbtn">Teams</button>
@@ -71,6 +73,55 @@
 
       <main>
         <div id="sidebar">
+          <h3>Selecteer een categorie:</h3>
+          <form id="filter-form">
+            <div class="filter-option">
+              <label for="T-shirt's">
+                <input
+                  type="checkbox"
+                  id="T-shirt's"
+                  name="T-shirt's"
+                  value="T-shirt's"
+                />
+                T-shirt's
+              </label>
+            </div>
+          <form id="filter-form">
+            <div class="filter-option">
+              <label for="Hoodies">
+                <input
+                  type="checkbox"
+                  id="Hoodies"
+                  name="Hoodies"
+                  value="Hoodies"
+                />
+                Hoodies
+              </label>
+            </div>
+          <form id="filter-form">
+            <div class="filter-option">
+              <label for="Petjes">
+                <input
+                  type="checkbox"
+                  id="Petjes"
+                  name="Petjes"
+                  value="Petjes"
+                />
+                Petjes
+              </label>
+            </div>
+          <form id="filter-form">
+            <div class="filter-option">
+              <label for="Accecoires">
+                <input
+                  type="checkbox"
+                  id="Accecoires"
+                  name="Accecoires"
+                  value="Accecoires"
+                />
+                Accecoires
+              </label>
+            </div>
           <h3>Filter op:</h3>
           <form id="filter-form">
             <div class="filter-option">
@@ -118,7 +169,15 @@
               </label>
             </div>
           </form>
+          <div class="filter-option">
+            <h3>Prijsrange:</h3>
+            <label for="priceRange">Prijs: €<span id="minPrice">20</span> - €<span id="maxPrice">100</span></label>
+            <input type="range" id="priceSlider" min="20" max="100" value="100" step="1">
+          </div>
+          
         </div>
+
+
 
         <div class="product-container">
           <h2>Uitgelichte producten</h2>
@@ -127,19 +186,19 @@
             <div class="product">
               <img src="assets/img/m4x shirt.webp" alt="M4X T-shirt" />
               <h3>M4X T-shirt</h3>
-              <p>Price: €37,95</p>
+              <p>Prijs: €37,95</p>
               <button>Add to cart</button>
             </div>
             <div class="product">
               <img src="assets/img/ferrari tshirt.jpg" alt="ferrari tshirt" />
-              <h3>M4X T-shirt</h3>
-              <p>Price: €56,00</p>
+              <h3>Ferrari T-shirt</h3>
+              <p>Prijs: €56,00</p>
               <button>Add to cart</button>
             </div>
             <div class="product">
               <img src="assets/img/mclaren shirt.webp" alt="mclaren shirt" />
-              <h3>M4X T-shirt</h3>
-              <p>Price: €40,99</p>
+              <h3>Mclaren T-shirt</h3>
+              <p>Prijs: €40,99</p>
               <button>Add to cart</button>
             </div>
             <div class="product">
@@ -147,8 +206,143 @@
                 src="assets/img/mercedes tshirt.webp"
                 alt="mercedes tshirt"
               />
+              <h3>Mercedes T-shirt</h3>
+              <p>Prijs: €44,95</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img src="assets/img/m4x shirt.webp" alt="M4X T-shirt" />
               <h3>M4X T-shirt</h3>
-              <p>Price: €44,95</p>
+              <p>Prijs: €37,95</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img src="assets/img/ferrari tshirt.jpg" alt="ferrari tshirt" />
+              <h3>Ferrari T-shirt</h3>
+              <p>Prijs: €56,00</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img src="assets/img/mclaren shirt.webp" alt="mclaren shirt" />
+              <h3>Mclaren T-shirt</h3>
+              <p>Prijs: €40,99</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img
+                src="assets/img/mercedes tshirt.webp"
+                alt="mercedes tshirt"
+              />
+              <h3>Mercedes T-shirt</h3>
+              <p>Prijs: €44,95</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img src="assets/img/m4x shirt.webp" alt="M4X T-shirt" />
+              <h3>M4X T-shirt</h3>
+              <p>Prijs: €37,95</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img src="assets/img/ferrari tshirt.jpg" alt="ferrari tshirt" />
+              <h3>Ferrari T-shirt</h3>
+              <p>Prijs: €56,00</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img src="assets/img/mclaren shirt.webp" alt="mclaren shirt" />
+              <h3>Mclaren T-shirt</h3>
+              <p>Prijs: €40,99</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img
+                src="assets/img/mercedes tshirt.webp"
+                alt="mercedes tshirt"
+              />
+              <h3>Mercedes T-shirt</h3>
+              <p>Prijs: €44,95</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img src="assets/img/m4x shirt.webp" alt="M4X T-shirt" />
+              <h3>M4X T-shirt</h3>
+              <p>Prijs: €37,95</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img src="assets/img/ferrari tshirt.jpg" alt="ferrari tshirt" />
+              <h3>Ferrari T-shirt</h3>
+              <p>Prijs: €56,00</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img src="assets/img/mclaren shirt.webp" alt="mclaren shirt" />
+              <h3>Mclaren T-shirt</h3>
+              <p>Prijs: €40,99</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img
+                src="assets/img/mercedes tshirt.webp"
+                alt="mercedes tshirt"
+              />
+              <h3>Mercedes T-shirt</h3>
+              <p>Prijs: €44,95</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img src="assets/img/m4x shirt.webp" alt="M4X T-shirt" />
+              <h3>M4X T-shirt</h3>
+              <p>Prijs: €37,95</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img src="assets/img/ferrari tshirt.jpg" alt="ferrari tshirt" />
+              <h3>Ferrari T-shirt</h3>
+              <p>Prijs: €56,00</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img src="assets/img/mclaren shirt.webp" alt="mclaren shirt" />
+              <h3>Mclaren T-shirt</h3>
+              <p>Prijs: €40,99</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img
+                src="assets/img/mercedes tshirt.webp"
+                alt="mercedes tshirt"
+              />
+              <h3>Mercedes T-shirt</h3>
+              <p>Prijs: €44,95</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img src="assets/img/m4x shirt.webp" alt="M4X T-shirt" />
+              <h3>M4X T-shirt</h3>
+              <p>Prijs: €37,95</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img src="assets/img/ferrari tshirt.jpg" alt="ferrari tshirt" />
+              <h3>Ferrari T-shirt</h3>
+              <p>Prijs: €56,00</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img src="assets/img/mclaren shirt.webp" alt="mclaren shirt" />
+              <h3>Mclaren T-shirt</h3>
+              <p>Prijs: €40,99</p>
+              <button>Add to cart</button>
+            </div>
+            <div class="product">
+              <img
+                src="assets/img/mercedes tshirt.webp"
+                alt="mercedes tshirt"
+              />
+              <h3>Mercedes T-shirt</h3>
+              <p>Prijs: €44,95</p>
               <button>Add to cart</button>
             </div>
           </section>
@@ -183,6 +377,10 @@
           </div>
         </div>
       </footer>
+      <div class="copyright-container">
+        <p>&copy; 2024 F1 Shop. Alle rechten voorbehouden.</p>
+      </div>
+      
 
       <script src="assets/js/app.js"></script>
     </div>
