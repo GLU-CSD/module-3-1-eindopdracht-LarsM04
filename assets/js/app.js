@@ -6,3 +6,4 @@ document.addEventListener("DOMContentLoaded", function () {
         maxPrice.textContent = priceSlider.value;
     });
 });
+

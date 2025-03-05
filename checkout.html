@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>F1 Shop</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <meta name="description" content="" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:alt" content="" />
+
+    <link rel="icon" href="assets/img/ferrari-f1-75.jpg" sizes="any" />
+    <link rel="icon" href="assets/img/ferrari-f1-75.jpg" type="jpg" />
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <div id="content">
+      <header>
+        <div class="bovenbalk">
+          <div class="menuLeft">
+            <label for="Taal">Taal:</label>
+            <select name="Taal" id="Taal">
+              <option value="Nederlands">Nederlands</option>
+              <option value="Engels">Engels</option>
+            </select>
+          </div>
+          <div class="menuRight">
+            <a href="">mijn account</a> | <a href="">afrekenen</a> |
+            <a href="">uitloggen</a>
+          </div>
+        </div>
+
+        <div id="zoekbar">
+          <img
+            src="assets/img/formula-racing-car-illustration-in-black-and-white-free-vector.jpg"
+            alt="Logo"
+            id="search-logo"
+          />
+          <input type="text" placeholder="Search.." />
+
+          <a href="checkout.html">
+            <div id="cart-icon" class="cart-icon">
+              <img
+                src="assets/img/shopping cart red.png"
+                alt="Winkelwagentje"
+              />
+              <span id="cart-count" class="cart-count">0</span>
+            </div>
+          </a>
+        </div>
+      </header>
+
+      <main>
+        <h2>Bestelformulier</h2>
+        <form action="submit_order.php" method="post">
+          <label for="aanhef">Aanhef:</label>
+          <select id="aanhef" name="aanhef">
+            <option value="dhr">Dhr.</option>
+            <option value="mevr">Mevr.</option>
+            <option value="anders">Anders</option>
+          </select>
+
+          <label for="voornaam">Voornaam:</label>
+          <input type="text" id="voornaam" name="voornaam" required />
+
+          <label for="tussenvoegsel">Tussenvoegsel:</label>
+          <input type="text" id="tussenvoegsel" name="tussenvoegsel" />
+
+          <label for="achternaam">Achternaam:</label>
+          <input type="text" id="achternaam" name="achternaam" required />
+
+          <label for="straatnaam">Straatnaam:</label>
+          <input type="text" id="straatnaam" name="straatnaam" required />
+
+          <label for="huisnummer">Huisnummer:</label>
+          <input type="text" id="huisnummer" name="huisnummer" required />
+
+          <label for="postcode">Postcode:</label>
+          <input type="text" id="postcode" name="postcode" required />
+
+          <label for="land">Land:</label>
+          <input type="text" id="land" name="land" required />
+
+          <label for="email">E-mailadres:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="telefoonnummer">Telefoonnummer:</label>
+          <input
+            type="tel"
+            id="telefoonnummer"
+            name="telefoonnummer"
+            required
+          />
+
+          <label for="geboortedatum">Geboortedatum:</label>
+          <input type="date" id="geboortedatum" name="geboortedatum" required />
+
+          <label>
+            <input
+              type="checkbox"
+              id="voorwaarden"
+              name="voorwaarden"
+              required
+            />
+            Ik ga akkoord met de algemene voorwaarden
+          </label>
+
+          <button type="submit">Bestelling plaatsen</button>
+        </form>
+      </main>
+
+      <footer>
+        <div class="footer-container">
+          <div class="footer-item">
+            <p class="footer-title">Veilig betalen</p>
+            <p class="footer-subtext">
+              Betaal in alle veiligheid met onze partners.
+            </p>
+          </div>
+          <div class="footer-item">
+            <p class="footer-title">Leveringskosten</p>
+            <p class="footer-subtext">Transport tarieven.</p>
+          </div>
+          <div class="footer-item">
+            <p class="footer-title">Klantenservice</p>
+            <p class="footer-subtext">- Paswoord vergeten</p>
+            <p class="footer-subtext">- Veilige betaling</p>
+            <p class="footer-subtext">- Levering</p>
+            <p class="footer-subtext">- Annuleren, retourneren en ruilen</p>
+          </div>
+          <div class="footer-item">
+            <p class="footer-title">Over ons</p>
+            <p class="footer-subtext">- Over ons</p>
+            <p class="footer-subtext">- Contactinformatie</p>
+            <p class="footer-subtext">- Algemene voorwaarden</p>
+            <p class="footer-subtext">- Privacy beleid</p>
+          </div>
+        </div>
+      </footer>
+      <div class="copyright-container">
+        <p>&copy; 2024 F1 Shop. Alle rechten voorbehouden.</p>
+      </div>
+
+      <script src="assets/js/app.js"></script>
+    </div>
+    <script></script>
+  </body>
+</html>
