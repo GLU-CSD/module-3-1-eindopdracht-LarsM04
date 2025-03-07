@@ -38,11 +38,10 @@
         </div>
 
         <div id="zoekbar">
-          <img
-            src="assets/img/formula-racing-car-illustration-in-black-and-white-free-vector.jpg"
-            alt="Logo"
-            id="search-logo"
-          />
+          <a href="index.html">
+            <img src="assets/img/formula-racing-car-illustration-in-black-and-white-free-vector.jpg" alt="Logo" id="search-logo" />
+          </a>
+          
           <input type="text" placeholder="Search.." />
 
           <a href="checkout.html">
@@ -60,62 +59,67 @@
       <main>
         <h2>Bestelformulier</h2>
         <div class="form-container">
-        <form action="submit_order.php" method="post">
-          <label for="aanhef">Aanhef:</label>
-          <select id="aanhef" name="aanhef">
-            <option value="dhr">Dhr.</option>
-            <option value="mevr">Mevr.</option>
-            <option value="anders">Anders</option>
-          </select>
+          <form action="submit_order.php" method="post">
+            <label for="aanhef">Aanhef:</label>
+            <select id="aanhef" name="aanhef">
+              <option value="dhr">Dhr.</option>
+              <option value="mevr">Mevr.</option>
+              <option value="anders">Anders</option>
+            </select>
 
-          <label for="voornaam">Voornaam:</label>
-          <input type="text" id="voornaam" name="voornaam" required />
+            <label for="voornaam">Voornaam:</label>
+            <input type="text" id="voornaam" name="voornaam" required />
 
-          <label for="tussenvoegsel">Tussenvoegsel:</label>
-          <input type="text" id="tussenvoegsel" name="tussenvoegsel" />
+            <label for="tussenvoegsel">Tussenvoegsel:</label>
+            <input type="text" id="tussenvoegsel" name="tussenvoegsel" />
 
-          <label for="achternaam">Achternaam:</label>
-          <input type="text" id="achternaam" name="achternaam" required />
+            <label for="achternaam">Achternaam:</label>
+            <input type="text" id="achternaam" name="achternaam" required />
 
-          <label for="straatnaam">Straatnaam:</label>
-          <input type="text" id="straatnaam" name="straatnaam" required />
+            <label for="straatnaam">Straatnaam:</label>
+            <input type="text" id="straatnaam" name="straatnaam" required />
 
-          <label for="huisnummer">Huisnummer:</label>
-          <input type="text" id="huisnummer" name="huisnummer" required />
+            <label for="huisnummer">Huisnummer:</label>
+            <input type="text" id="huisnummer" name="huisnummer" required />
 
-          <label for="postcode">Postcode:</label>
-          <input type="text" id="postcode" name="postcode" required />
+            <label for="postcode">Postcode:</label>
+            <input type="text" id="postcode" name="postcode" required />
 
-          <label for="land">Land:</label>
-          <input type="text" id="land" name="land" required />
+            <label for="land">Land:</label>
+            <input type="text" id="land" name="land" required />
 
-          <label for="email">E-mailadres:</label>
-          <input type="email" id="email" name="email" required />
+            <label for="email">E-mailadres:</label>
+            <input type="email" id="email" name="email" required />
 
-          <label for="telefoonnummer">Telefoonnummer:</label>
-          <input
-            type="tel"
-            id="telefoonnummer"
-            name="telefoonnummer"
-            required
-          />
-
-          <label for="geboortedatum">Geboortedatum:</label>
-          <input type="date" id="geboortedatum" name="geboortedatum" required />
-
-          <label>
+            <label for="telefoonnummer">Telefoonnummer:</label>
             <input
-              type="checkbox"
-              id="voorwaarden"
-              name="voorwaarden"
+              type="tel"
+              id="telefoonnummer"
+              name="telefoonnummer"
               required
             />
-            Ik ga akkoord met de algemene voorwaarden
-          </label>
 
-          <button type="submit">Bestelling plaatsen</button>
-        </form>
-      </div>
+            <label for="geboortedatum">Geboortedatum:</label>
+            <input
+              type="date"
+              id="geboortedatum"
+              name="geboortedatum"
+              required
+            />
+
+            <label>
+              <input
+                type="checkbox"
+                id="voorwaarden"
+                name="voorwaarden"
+                required
+              />
+              Ik ga akkoord met de algemene voorwaarden
+            </label>
+
+            <button type="submit">Bestelling plaatsen</button>
+          </form>
+        </div>
       </main>
 
       <footer>
