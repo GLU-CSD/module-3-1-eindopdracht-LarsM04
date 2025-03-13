@@ -7,3 +7,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    let cartCount = 0; 
+    const cartCountElement = document.getElementById("cart-count"); 
+    const addToCartButtons = document.querySelectorAll(".product button"); 
+
+    addToCartButtons.forEach(button => {
+        button.addEventListener("click", function () {
+            cartCount++; 
+            cartCountElement.textContent = cartCount; 
+        });
+    });
+});
+
